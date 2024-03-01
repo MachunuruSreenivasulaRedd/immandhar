@@ -125,6 +125,14 @@ With a vast experience of working with superior clientele including multiple For
           <img src="https://hiwaycabs.com/wp-content/uploads/2022/08/06-1.png" alt="cabs for weddings & events" className='serviceImg'/>
           <p className='serviceName'>Special Ocassion Services </p>
           </div>
+          <div className='service'>
+          <img src="https://hiwaycabs.com/wp-content/uploads/2022/08/04-1.png" alt="corporate car rental" className='serviceImg'/>
+          <p className='serviceName'>Corporate car Rental</p>
+          </div>
+          <div className='service'>
+          <img src="https://hiwaycabs.com/wp-content/uploads/2022/08/05-1.png" alt="long term car lease" className='serviceImg'/>
+          <p className='serviceName'>Long-Term Car Lease</p>
+          </div>
           </div>
         </div>
     {/* <div className='quote'>
