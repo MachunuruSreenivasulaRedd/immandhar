@@ -1,0 +1,275 @@
+.mainContainer{
+    overflow: hidden;
+}
+#responsive-navbar-nav{
+    color:#1E266D;
+}
+#collapsible-nav-dropdown{
+    color:#005980;
+}
+
+.logo{
+    width:200px;
+    height:80px;
+}
+@media (min-width:768px){
+    .logo{
+        margin-right:200px;
+    }
+}
+#collapsible-nav-dropdown:hover{
+    color: #005980;
+}
+li{
+    font-size: 15px;
+    font-weight: 500;
+}
+.explore{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.WhyChooseSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    color:#1E266D;
+}
+
+.liner{
+    height:9px;
+    width:200px;
+    background-color:yellow;
+    border-radius: 5px;
+    border: none;
+}
+span{
+    color:#1E266D;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner{
+    background-color: #473d3a;
+    height:450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color:white;
+    padding-left: 40px;
+}
+.bannerHeader{
+    font-size: 45px;
+    font-family: serif;
+    font-weight: bold;
+}
+.bannerQuote{
+    font-size: 20px;
+    font-family: serif;
+}
+.bannerBtn{
+    border-radius: 4px;
+    color: white;
+    background-color: #0d6efd;
+    padding:10px;
+    width:130px;
+    border:none;
+    font-weight: 400;
+}
+.item,#item{
+    color:#1E266D;
+}
+.item:hover{
+    color:#ffd936;
+}
+.item:selected{
+    color:#005980;
+}
+.item:visited{
+    color:#005980;
+}
+.bannerImg{
+    width:100%;
+    height:500px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:30px;
+}
+.headLine{
+    font-size: 32px;
+    color:#280015;
+}
+.aboutHeader{
+    margin:20px;
+    font-size: 32px;
+    color:#ffffff;
+}
+.quoteContent{
+    text-align: left;
+    font-family: serif;
+    font-size:16px;
+    align-self: center;
+    margin-left:80px;
+    margin-right:80px;
+}.aboutContent{
+    line-height: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.carImg{
+    width:250px;
+    height:120px;
+}
+@media (min-width:768px){
+    .carImg{
+        width:
+    }
+}
+.typesOfCabs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #473d3a;
+    margin-top:30px;
+    color:#ffffff;
+    text-align: center;
+}
+.aboutContent{
+    text-align: left;
+    margin-left:80px;
+    margin-right:80px;
+}
+.AboutContent{
+    margin:70px;
+}
+.toggler{
+    color:white;
+    background-color: #ffffff;
+}
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:50px;
+}
+.headLine{
+    font-size: 45px;
+    font-weight: 400;
+}
+.serviceName{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top:10px;
+}
+.AllServices{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin:40px;
+}
+.serviceImg{
+    width:220px;
+    height:120px;
+}
+.service{
+    margin:20px;
+    border-radius: 12px;
+    border:1px solid black;
+    padding:20px;
+}
+.reviewSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.googleRatingSection{
+    display: flex;
+}
+.googleRating{
+    width:480px;
+    height:300px;
+}
+.advisorImage{
+    order:0;
+}
+.reviewHeadLine{
+    display: block;
+    order:1;
+    text-align: center;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.viewBtn{
+    display: block;
+
+}
+@media (min-width:769px){
+    .AllServices{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .reviewSection{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .serviceImg{
+        width:90px;
+        height:50px;
+    }
+    .reviews{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .advisorImage{
+        order:0;
+    }
+    .reviewHeadLine{
+        order: -1;
+        display: block;
+    }
+    .service{
+       width:300px;
+    }
+    .googleRatingSection{
+        flex-direction: row;
+        flex-grow: 1;
+    }
+
+}
+.bookBtn,.viewBtn,.knowBtn{
+    border:none;
+    background-color: #ffd936;
+    border-radius: 12px;
+    color:#280015;
+    width:130px;
+    height:50px;
+    font-size:15px 30px 0px 0px;
+    font-family:serif;
+    font-size:14px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px;
+}
