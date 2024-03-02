@@ -135,6 +135,16 @@ With a vast experience of working with superior clientele including multiple For
           </div>
           </div>
         </div>
+        <div className='Routes'>
+          <h1 className='headLine'>Popular Routes</h1>
+          <hr className='liner'/>
+          <h3>Taxis from Mumbai</h3>
+          <p className='trip'>Mumbai to Pune</p>
+          <p className='trip'>Mumbai to Nashik</p>
+          <p className='trip'>Mumbai to Shirdi</p>
+          <p className='trip'>Mumbai to Kolhapur</p>
+
+        </div>
     {/* <div className='quote'>
       <h1 className='headLine'>Best Taxi Service in Chandigarh, Now Operational in Delhi & <br />Gurgaon!</h1>
       <hr />
